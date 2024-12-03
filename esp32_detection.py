@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 # Load the YOLOv8 model
 model = YOLO("../yolo_weights/yolov8n.pt")
-
+#Paste the corresponding address of esp32-cam
 url = 'http://......./cam-lo.jpg'
 
 while True:
